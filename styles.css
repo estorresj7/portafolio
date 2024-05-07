@@ -1,0 +1,43 @@
+/*Estilos para el cuerpo de la pagina.*/
+body {
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos para el encabezado.*/
+
+header {
+    background-color: #213bcf;
+    color:#fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/*Estilos para el pie de pagina.*/
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color:#fff;
+}
+
+/*Estilo para las imagenes*/
+img {
+    width: 200px;
+}
+
+.proyecto {
+    border:1px solid #333;
+    padding: 10px;
+}
+
+#proyectos {
+    display:flex;
+    flex-direction: row;
+} 
+
+.titulo_proyecto {
+    flex-direction: column;
+}
